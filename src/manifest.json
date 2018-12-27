@@ -1,0 +1,28 @@
+{
+  "name": "Alfathony Plugin Sketch",
+  "description": "This sample plugin for learn and exploration",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Count Select",
+      "identifier": "count-select",
+      "shortcut": "ctrl shift j",
+      "script": "./my-command.js"
+    },
+    {
+      "name": "Say Hay",
+      "identifier": "my-command-identifier2",
+      "shortcut": "ctrl shift k",
+      "script": "./my-command2.js"
+    }
+  ],
+  "menu": {
+    "title": "Alfathony Plugin Sketch",
+    "items": [
+      "count-select",
+      "my-command-identifier2"
+    ]
+  }
+}
