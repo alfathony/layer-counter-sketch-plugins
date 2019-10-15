@@ -11,3 +11,6 @@ npm-debug.log
 
 # WebStorm
 .idea
+
+# package lock
+.package-lock.json
